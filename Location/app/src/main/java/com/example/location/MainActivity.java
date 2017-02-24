@@ -12,14 +12,13 @@ import android.widget.Toast;
 import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
-
+    private final String TAG = "MapLocation";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        Button find = (Button) findViewById(R.id.btn_find);
+        final Button find = (Button) findViewById(R.id.btn_find);
         find.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
