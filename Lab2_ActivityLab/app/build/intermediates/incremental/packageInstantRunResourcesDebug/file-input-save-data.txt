@@ -1,0 +1,18 @@
+#Internal package file, do not edit.
+#Mon Mar 13 09:01:03 CST 2017
+1.base=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_two.xml
+1.file=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
+4.set=ANDROID_RESOURCE
+2.base=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.set=ANDROID_RESOURCE
+2.set=ANDROID_RESOURCE
+2.file=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_one.xml
+count=5
+1.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+0.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+0.file=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+4.base=C\:\\Users\\Pablo Garcia\\AndroidStudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\res\\resources-debug.ap_
