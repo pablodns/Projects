@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bomb">
+
+    <!--******************STEP 1: Define a custom permission (outside application tag)******************-->
+    <permission android:name="com.example.bomb.BOMB_PERM"
+                android:label="@string/perm_label"
+                android:description="@string/perm_desc">
+    </permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:permission="com.example.bomb.BOMB_PERM">
+        <!--*********STEP 2: Enforce application to use BOMB_PERM*********-->
+
+        <activity android:name=".bomb">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!--*********STEP 3: Set up an intent filter to use the dangerous
+            bomb defined by the action String "...bomb_action"*********S-->
+            <intent-filter>
+                <action android:name ="com.example.bomb.boom_action"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

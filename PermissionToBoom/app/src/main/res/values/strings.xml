@@ -1,0 +1,5 @@
+<resources>c
+    <string name="app_name">Bomb</string>
+    <string name="boom">BOOOM!!</string>
+    <string name="description_permission">The application can not boom with no permissions.</string>
+</resources>

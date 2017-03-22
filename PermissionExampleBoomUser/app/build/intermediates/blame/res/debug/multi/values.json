@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Users\\Pablo Garcia\\AndroidStudioProjects\\PermissionExampleBoomUser\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "C:\\Users\\Pablo Garcia\\AndroidStudioProjects\\PermissionExampleBoomUser\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 62,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 118,
+                    "endColumn": 67,
+                    "endOffset": 181
+                },
+                "from": {
+                    "file": "C:\\Users\\Pablo Garcia\\AndroidStudioProjects\\PermissionExampleBoomUser\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 119,
+                        "endColumn": 67,
+                        "endOffset": 182
+                    }
+                }
+            }
+        ]
+    }
+]

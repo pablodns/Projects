@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bomb</string>
+    <string name="perm_label">This is the label of the permission</string>
+    <string name="perm_desc">This is the description of the permission</string>
+</resources>
