@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prosesa Manager</string>
+    <string name="welcome">Welcome to Prosesa Manager Tool</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_usr">User</string>
+    <string name="lbl_psw">Password</string>
+</resources>

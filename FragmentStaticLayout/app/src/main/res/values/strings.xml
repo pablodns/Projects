@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FragmentQuoteActivity</string>
+    <string-array name="companies">
+        <item>NearShore</item>
+        <item>Accenture</item>
+        <item>Hexaware</item>
+    </string-array>
+    <string-array name="description">
+        <item>Nearshore is the current company Pablo has joined.</item>
+        <item>Accenture was the last company where Pablo was working on. Is the best company he has worked.</item>
+        <item>Hexaware was the company where Pablo made his practices. He was working for OXXO, </item>
+    </string-array>
+</resources>
