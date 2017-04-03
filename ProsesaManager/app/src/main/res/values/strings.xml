@@ -2,7 +2,9 @@
     <string name="app_name">Prosesa Manager</string>
     <string name="welcome">Welcome to Prosesa Manager Tool</string>
     <string name="lbl_login">Login</string>
+    <string name="lbl_logout">LOGOUT</string>
     <string name="lbl_cancel">Cancel</string>
     <string name="lbl_usr">User</string>
     <string name="lbl_psw">Password</string>
+    <string name="title_activity_main_menu">MainMenu</string>
 </resources>
