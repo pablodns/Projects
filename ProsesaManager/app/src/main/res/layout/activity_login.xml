@@ -10,6 +10,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.prosesamanager.login"
     android:background="@drawable/bck1"
+    android:onClick="hideKeyboard"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
     >
     <TextView
         android:id="@+id/lbl_psw"

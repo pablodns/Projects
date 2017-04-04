@@ -6,15 +6,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
 
+import EmployeeData.DataBaseHelper;
 import EmployeeData.Employee;
 
 public class login extends Activity {
+    DataBaseHelper myDb;
     Employee dummy = null;
     private EditText mUser;
     private EditText mPassword;
@@ -23,16 +24,19 @@ public class login extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        myDb = new DataBaseHelper(this);
+
         //Creating Dummy Employee
         createEmployee();
 
         //Creating LOGIN Button
         Button login = (Button) findViewById(R.id.btn_login);
+        mUser = (EditText) findViewById(R.id.txt_user);
+        mPassword = (EditText) findViewById(R.id.txt_password);
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mUser = (EditText) findViewById(R.id.txt_user);
-                mPassword = (EditText) findViewById(R.id.txt_password);
 
                 String user = mUser.getText().toString();
                 String password = mPassword.getText().toString();
@@ -57,12 +61,14 @@ public class login extends Activity {
 
             }
         });
+        //If User Clicks Outside EditText hide keyboard.
+        setOnFocusEditTextChange(mUser);
+        setOnFocusEditTextChange(mPassword);
 
     }
 
     public Employee createEmployee(){
-        Calendar dob = new GregorianCalendar(1991, 10, 15);
-        dummy = new Employee("Pablo", "De Jesus", "Garcia", "Arzola","pablodns", "1215", 25, dob, "Accenture", "QA Test");
+        dummy = new Employee("Pablo", "De Jesus", "Garcia", "Arzola","pablodns", "1215", 25, "1991/10/15", "Accenture", "QA Test");
         return dummy;
     }
 
@@ -87,6 +93,21 @@ public class login extends Activity {
             getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_VISIBLE);
         }
 
+    }
+
+    public void hideKeyboard(View v){
+        InputMethodManager inputMethodManager =(InputMethodManager)getSystemService(Activity.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(v.getWindowToken(), 0);
+    }
+
+    public void setOnFocusEditTextChange(View v){
+        v.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (!hasFocus)
+                    hideKeyboard(v);
+            }
+        });
     }
 
 

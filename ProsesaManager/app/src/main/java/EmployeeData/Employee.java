@@ -87,7 +87,7 @@ public class Employee implements Serializable {
         return "EMPLOYEE FOUND: "+"\n" +" Name: " + getName() +"\n" + " SecondName: " + getSecondName() +"\n" +
                 " LastName: " + getLastName() +"\n" + " SecondLastName: " + getSecondLastName() +"\n" +
                 " User: " + getUser() +"\n" + " Password: **************" + "\n"  +
-                " Age: " + getAge()+"\n"  + " DateOfBirth: " +sdf.format(getDob()) +"\n" +
+                " Age: " + getAge()+"\n"  + " DateOfBirth: " +getDob() +"\n" +
                 " Company: " + getCompany()+"\n"  + " Position: " + getPosition();
 
 

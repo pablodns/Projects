@@ -7,4 +7,16 @@
     <string name="lbl_usr">User</string>
     <string name="lbl_psw">Password</string>
     <string name="title_activity_main_menu">MainMenu</string>
+    <string name="lbl_addEmployee">Add Employee</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_secondName">Second Name</string>
+    <string name="lbl_lastName">Last Name</string>
+    <string name="lbl_secondLastName">Second Last Name</string>
+    <string name="lbl_user">User</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_dob">DOB</string>
+    <string name="lbl_company">Company</string>
+    <string name="lbl_position">Position</string>
+
+
 </resources>
