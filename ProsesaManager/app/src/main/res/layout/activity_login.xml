@@ -76,7 +76,7 @@
         android:layout_alignBottom="@+id/lbl_user"
         android:layout_alignStart="@+id/txt_password"
         android:layout_alignEnd="@+id/txt_password"
-        android:textColorHint="@color/grayTransparent" />
+        android:textColorHint="@color/blackTransparent" />
 
     <EditText
         android:id="@+id/txt_password"
@@ -88,7 +88,7 @@
         android:layout_alignBottom="@+id/lbl_psw"
         android:layout_toEndOf="@+id/lbl_psw"
         android:layout_marginStart="18dp"
-        android:textColorHint="@color/grayTransparent" />
+        android:textColorHint="@color/blackTransparent" />
 
 
 </RelativeLayout>

@@ -17,6 +17,16 @@
     <string name="lbl_dob">DOB</string>
     <string name="lbl_company">Company</string>
     <string name="lbl_position">Position</string>
-
+    <string name="txt_name">Employee\'s name</string>
+    <string name="txt_secondName">Second name</string>
+    <string name="txt_lastName">Last name</string>
+    <string name="txt_secondLastName">Second last name</string>
+    <string name="txt_user">User</string>
+    <string name="txt_password">User\'s password</string>
+    <string name="txt_confirmPassword">Confirm password</string>
+    <string name="txt_age">Age</string>
+    <string name="txt_dob">Date of birth</string>
+    <string name="txt_company">Company</string>
+    <string name="txt_position">Position</string>
 
 </resources>
